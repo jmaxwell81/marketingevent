@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_51117_marketing_event" element="NULL" name="x_51117_marketing_event" parent="NULL" relationship="NULL" sys_domain="global" view="d4b767721902320092c0a763583fa41c">c723c296db0332009fced740cf961931</list_id>
+            <list_id display_value="x_51117_marketing_event" element="NULL" name="x_51117_marketing_event" parent="NULL" relationship="NULL" sys_domain="global" view="3d220622db022200b7495df3ce9619a4">c723c296db0332009fced740cf961931</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>start_date</element>
-            <list_id display_value="x_51117_marketing_event" element="NULL" name="x_51117_marketing_event" parent="NULL" relationship="NULL" sys_domain="global" view="d4b767721902320092c0a763583fa41c">c723c296db0332009fced740cf961931</list_id>
+            <list_id display_value="x_51117_marketing_event" element="NULL" name="x_51117_marketing_event" parent="NULL" relationship="NULL" sys_domain="global" view="3d220622db022200b7495df3ce9619a4">c723c296db0332009fced740cf961931</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>end_date</element>
-            <list_id display_value="x_51117_marketing_event" element="NULL" name="x_51117_marketing_event" parent="NULL" relationship="NULL" sys_domain="global" view="d4b767721902320092c0a763583fa41c">c723c296db0332009fced740cf961931</list_id>
+            <list_id display_value="x_51117_marketing_event" element="NULL" name="x_51117_marketing_event" parent="NULL" relationship="NULL" sys_domain="global" view="3d220622db022200b7495df3ce9619a4">c723c296db0332009fced740cf961931</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -59,7 +59,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>hugo.ruano</sys_created_by>
             <sys_created_on>2017-06-01 18:30:30</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c723c296db0332009fced740cf961931</sys_id>
@@ -73,7 +73,7 @@
             <sys_updated_by>hugo.ruano</sys_updated_by>
             <sys_updated_on>2017-06-01 18:30:30</sys_updated_on>
             <sys_user/>
-            <view display_value="Mobile" name="Mobile">d4b767721902320092c0a763583fa41c</view>
+            <view display_value="Mobile" name="Mobile">3d220622db022200b7495df3ce9619a4</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
