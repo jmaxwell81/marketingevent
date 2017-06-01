@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>hugo.ruano</sys_created_by>
             <sys_created_on>2017-06-01 16:01:29</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>9c11e95e0f03320087f24e9ce1050e15</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Number of attendees registered</sys_name>

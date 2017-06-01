@@ -19,7 +19,7 @@
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-05-31 22:38:28</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>bd52f9420f87320087f24e9ce1050e61</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_budget</sys_name>

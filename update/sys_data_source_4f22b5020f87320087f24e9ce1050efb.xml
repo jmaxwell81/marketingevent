@@ -42,7 +42,7 @@
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-05-31 22:37:44</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4f22b5020f87320087f24e9ce1050efb</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>upload marketing.xlsx (Uploaded)</sys_name>

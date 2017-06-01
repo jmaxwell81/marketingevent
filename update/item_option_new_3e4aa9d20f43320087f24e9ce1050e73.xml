@@ -58,7 +58,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-06-01 16:42:33</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3e4aa9d20f43320087f24e9ce1050e73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Expected budget</sys_name>

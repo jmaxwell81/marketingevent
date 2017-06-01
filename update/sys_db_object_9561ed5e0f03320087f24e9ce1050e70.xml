@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-06-01 16:06:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9561ed5e0f03320087f24e9ce1050e70</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Attendees</sys_name>
