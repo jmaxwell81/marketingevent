@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a9021a920fc3320087f24e9ce1050e8c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_51117_marketing_event">
+    <x_51117_marketing_event action="INSERT_OR_UPDATE">
+        <budget>2000</budget>
+        <city>San Salvador</city>
+        <end_date>2017-06-04</end_date>
+        <name>San Salvador LUG</name>
+        <number>MAR0001001</number>
+        <sponsor>ANZ Partners</sponsor>
+        <start_date>2017-06-03</start_date>
+        <sys_class_name>x_51117_marketing_event</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-01 19:35:22</sys_created_on>
+        <sys_id>a9021a920fc3320087f24e9ce1050e8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-01 19:35:22</sys_updated_on>
+        <u_number_attendees_registered>0</u_number_attendees_registered>
+        <u_numer_attendees_expected/>
+    </x_51117_marketing_event>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-01 19:36:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e852dede0f83320087f24e9ce1050e6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>San Salvador LUG</sys_name>
+        <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+        <sys_update_name>sys_metadata_link_e852dede0f83320087f24e9ce1050e6c</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-01 19:36:39</sys_updated_on>
+        <tablename>x_51117_marketing_event</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -14,14 +14,14 @@
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-05-31 22:37:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>42258ad60f83320087f24e9ce1050eca</sys_id>
+        <sys_id>e1a19e120fc3320087f24e9ce1050e85</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_51117_marketing_marketing_event_import</sys_name>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
-        <sys_update_name>ua_table_licensing_config_42258ad60f83320087f24e9ce1050eca</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_e1a19e120fc3320087f24e9ce1050e85</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
         <sys_updated_on>2017-05-31 22:37:46</sys_updated_on>
     </ua_table_licensing_config>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>be229a920fc3320087f24e9ce1050e2e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_51117_marketing_attendees">
+    <x_51117_marketing_attendees action="INSERT_OR_UPDATE">
+        <email>hugo.ruano.valle@hotmail.com</email>
+        <first_name>Hugo</first_name>
+        <last_name>Ruano</last_name>
+        <marketing_event display_value="Mexico LUG">ad021a920fc3320087f24e9ce1050e8d</marketing_event>
+        <phone>55175772423</phone>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-01 19:36:22</sys_created_on>
+        <sys_id>be229a920fc3320087f24e9ce1050e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-01 19:36:22</sys_updated_on>
+    </x_51117_marketing_attendees>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-01 19:37:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>da621a920fc3320087f24e9ce1050edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 01.06.2017 14:36:22</sys_name>
+        <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+        <sys_update_name>sys_metadata_link_da621a920fc3320087f24e9ce1050edd</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-01 19:37:04</sys_updated_on>
+        <tablename>x_51117_marketing_attendees</tablename>
+    </sys_metadata_link>
+</record_update>
