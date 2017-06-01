@@ -14,7 +14,7 @@
         <label>Equipment Request</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_51117_marketing_equiment_request</name>
-        <number_ref/>
+        <number_ref display_value="EQU">55ae2dd60f43320087f24e9ce1050ecf</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Task" name="task">5da4c2856110320092c0b8181e2a7aa0</super_class>
@@ -23,7 +23,7 @@
         <sys_created_on>2017-05-31 21:27:29</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>67e1a5460f47320087f24e9ce1050ef6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Equipment Request</sys_name>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
         <sys_policy/>
@@ -31,7 +31,7 @@
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
         <sys_update_name>sys_db_object_67e1a5460f47320087f24e9ce1050ef6</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-05-31 21:27:48</sys_updated_on>
+        <sys_updated_on>2017-06-01 17:00:48</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_51117_marketing.equiment_request_user" name="x_51117_marketing.equiment_request_user">b112a5460f47320087f24e9ce1050e8c</user_role>
         <ws_access>true</ws_access>

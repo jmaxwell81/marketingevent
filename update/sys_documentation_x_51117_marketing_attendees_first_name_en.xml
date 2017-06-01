@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="first_name" label="First Name" language="en" table="x_51117_marketing_attendees">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <help/>
+            <hint/>
+            <label>First Name</label>
+            <language>en</language>
+            <name>x_51117_marketing_attendees</name>
+            <plural>First Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-06-01 16:06:36</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>9f32299e0f03320087f24e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>First Name</sys_name>
+            <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+            <sys_update_name>sys_documentation_x_51117_marketing_attendees_first_name_en</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-06-01 16:06:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
