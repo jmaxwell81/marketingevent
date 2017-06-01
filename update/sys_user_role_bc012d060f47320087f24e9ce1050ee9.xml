@@ -5,7 +5,6 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_51117_marketing.user</name>
@@ -13,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-05-31 21:22:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>bc012d060f47320087f24e9ce1050ee9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_51117_marketing.user</sys_name>

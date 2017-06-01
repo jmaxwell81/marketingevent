@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-05-31 21:27:29</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8a12e9460f47320087f24e9ce1050e4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_51117_marketing_equiment_request</sys_name>
