@@ -28,7 +28,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-06-01 19:36:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6c52dede0f83320087f24e9ce1050e67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Mexico Workshop</sys_name>

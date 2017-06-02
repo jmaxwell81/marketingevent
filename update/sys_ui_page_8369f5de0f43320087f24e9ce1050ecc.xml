@@ -5,7 +5,7 @@
         <client_script/>
         <description/>
         <direct>false</direct>
-        <endpoint>x_51117_marketing_.do</endpoint>
+        <endpoint>x_51117_marketing_Event registration public.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 <style type="text/css">
@@ -99,7 +99,7 @@ font-weight:bold;
 </g:ui_form>
 </div>
 </j:jelly>]]></html>
-        <name/>
+        <name>Event registration public</name>
         <processing_script><![CDATA[var attendee = new GlideRecord("x_51117_marketing_attendees");
 attendee.first_name = fname;
 attendee.last_name = lname;
@@ -110,16 +110,16 @@ attendee.insert();]]></processing_script>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-06-01 17:49:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>8369f5de0f43320087f24e9ce1050ecc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Event registration public</sys_name>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
         <sys_update_name>sys_ui_page_8369f5de0f43320087f24e9ce1050ecc</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-01 17:51:25</sys_updated_on>
+        <sys_updated_on>2017-06-02 16:20:57</sys_updated_on>
     </sys_ui_page>
 </record_update>

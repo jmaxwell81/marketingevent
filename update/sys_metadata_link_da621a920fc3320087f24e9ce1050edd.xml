@@ -23,7 +23,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-06-01 19:37:04</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>da621a920fc3320087f24e9ce1050edd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Created 01.06.2017 14:36:22</sys_name>
