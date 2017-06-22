@@ -35,11 +35,12 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=fc37e1920f43320087f24e9ce1050e71&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=fc37e1920f43320087f24e9ce1050e71&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <roles/>
+        <redirect_url/>
+        <roles>snc_internal</roles>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -52,15 +53,15 @@
         <sys_created_on>2017-06-01 16:29:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fc37e1920f43320087f24e9ce1050e71</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Request Marketing Event</sys_name>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
         <sys_update_name>sc_cat_item_producer_fc37e1920f43320087f24e9ce1050e71</sys_update_name>
-        <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-01 16:29:50</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-05 18:04:00</sys_updated_on>
         <table_name>x_51117_marketing_event</table_name>
         <template/>
         <type>item</type>

@@ -15,7 +15,7 @@
         <expected_sequences>8b4d25560f43320087f24e9ce1050e43,aacde1560f43320087f24e9ce1050eec,7e7da1d60f43320087f24e9ce1050e9a,b2fd61d60f43320087f24e9ce1050e35,834d25560f43320087f24e9ce1050e45</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>8b4d25560f43320087f24e9ce1050e43,aacde1560f43320087f24e9ce1050eec,7e7da1d60f43320087f24e9ce1050e9a,572e6d160f43320087f24e9ce1050e5f,834d25560f43320087f24e9ce1050e45|8b4d25560f43320087f24e9ce1050e43,aacde1560f43320087f24e9ce1050eec,7e7da1d60f43320087f24e9ce1050e9a,b2fd61d60f43320087f24e9ce1050e35,834d25560f43320087f24e9ce1050e45</full_sequences>
+        <full_sequences>8b4d25560f43320087f24e9ce1050e43,aacde1560f43320087f24e9ce1050eec,7e7da1d60f43320087f24e9ce1050e9a,b2fd61d60f43320087f24e9ce1050e35,572e6d160f43320087f24e9ce1050e5f,834d25560f43320087f24e9ce1050e45</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Equiment Request Workflow</name>
@@ -34,9 +34,9 @@
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-06-01 16:54:54</sys_created_on>
         <sys_id>343da5960f43320087f24e9ce1050e0c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-01 17:01:49</sys_updated_on>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-21 02:19:06</sys_updated_on>
         <table>x_51117_marketing_equiment_request</table>
         <timezone/>
         <validated>true</validated>

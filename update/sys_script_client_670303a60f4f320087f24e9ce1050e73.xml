@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>budget</field>
+        <global>true</global>
+        <messages/>
+        <name>End date validation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+    if(g_form.getValue('end_date') == '')
+        return;
+
+    if(g_form.getValue('end_date') < g_form.getValue('start_date')) {
+        g_form.clearMessages();  
+
+    g_form.addErrorMessage(g_form.getLabelOf('end_date') + ' ' 
+	+ getMessage('must be after') + ' ' + g_form.getLabelOf('start_date'));
+        return false;
+    }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-02 17:48:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>670303a60f4f320087f24e9ce1050e73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>End date validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+        <sys_update_name>sys_script_client_670303a60f4f320087f24e9ce1050e73</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-02 17:48:49</sys_updated_on>
+        <table>x_51117_marketing_event</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
