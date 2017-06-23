@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>Show event cost</action_name>
+        <action_name>show_event_cost</action_name>
         <active>true</active>
         <client>false</client>
         <comments/>
@@ -9,7 +9,7 @@
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>true</form_context_menu>
-        <form_link>false</form_link>
+        <form_link>true</form_link>
         <form_style/>
         <hint>Calculates event cost (total)</hint>
         <list_action>false</list_action>
@@ -20,28 +20,29 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Show event cost</name>
+        <name>Show total cost</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[(function executeUIAction(current, previous) {
-var cost = 0;
 var budget = current.budget;
 var mrkevent = current.sys_id;
 var evtname = current.name;
 //Get the total cost of all equipment for this event
-var equipment = new GlideRecord('x_51117_marketing_equiment_request');
-equipment.addQuery('marketing_event', mrkevent);
-equipment.query();
-while(equipment.next()){
-	cost = cost + parseFloat(equipment.cost.getCurrencyValue());
-}
-//Display cost and budget error
-gs.addInfoMessage('The total cost of ' + evtname + ' is ' + cost + '.');
+var equipment = new totalCost(mrkevent);
+var cost = equipment.getCost();
+//Compare cost to budget
 if(cost > budget){
 	gs.addErrorMessage('Equipment costs for ' + evtname + ' exceed the event budget.');
 }
+//Populate cost
+current.event_cost = cost;
+//Populate Budget remaining
+var remaining = budget - cost;
+current.budget_remaining = remaining;
+current.update();
 action.setRedirectURL(current);
-}(current, typeof previous != 'undefined' ?  previous : null));]]></script>
+})(current, typeof previous != 'undefined' ?  previous : null);
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -53,8 +54,8 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5ee922e60f0f320087f24e9ce1050ec2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Show event cost</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Show total cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
         <sys_policy/>
@@ -62,7 +63,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
         <sys_update_name>sys_ui_action_5ee922e60f0f320087f24e9ce1050ec2</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-02 16:17:37</sys_updated_on>
+        <sys_updated_on>2017-06-23 22:18:44</sys_updated_on>
         <table>x_51117_marketing_event</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

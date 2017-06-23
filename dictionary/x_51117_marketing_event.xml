@@ -11,13 +11,21 @@
                 <element label="San Salvador" sequence="4" value="San Salvador"/>
             </choice>
         </element>
-        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Event coordinator" mandatory="true" max_length="32" name="event_coordinator" reference="sys_user" type="reference"/>
+        <element label="Event cost" max_length="20" name="event_cost" read_only="true" type="currency"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Remaining budget" max_length="20" name="remaining_budget" read_only="true" type="currency"/>
         <element label="Sponsor" max_length="40" name="sponsor" type="string"/>
-        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
-        <element attributes="edge_encryption_enabled=true" default="0" label="Number of attendees registered" max_length="40" name="u_number_attendees_registered" read_only="true" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Number of attendees expected" max_length="40" name="u_numer_attendees_expected" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Attendees registered" max_length="40" name="u_number_attendees_registered" read_only="true" type="integer">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Max capacity" max_length="40" name="u_numer_attendees_expected" type="integer"/>
+        <index name="index">
+            <element name="event_coordinator"/>
+        </index>
     </element>
 </database>

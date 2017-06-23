@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_numer_attendees_expected" label="Max capacity" language="en" table="x_51117_marketing_event">
+    <sys_documentation element="remaining_budget" label="Remaining budget" language="en" table="x_51117_marketing_event">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_numer_attendees_expected</element>
+            <element>remaining_budget</element>
             <help/>
             <hint/>
-            <label>Max capacity</label>
+            <label>Remaining budget</label>
             <language>en</language>
             <name>x_51117_marketing_event</name>
-            <plural>Max capacities</plural>
+            <plural>Remaining budgets</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-06-01 16:01:29</sys_created_on>
+            <sys_created_on>2017-06-23 21:57:30</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>dc11e95e0f03320087f24e9ce1050e17</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Max capacity</sys_name>
+            <sys_id>4a858ce50f27320087f24e9ce1050e76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Remaining budget</sys_name>
             <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
-            <sys_update_name>sys_documentation_x_51117_marketing_event_u_numer_attendees_expected_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_51117_marketing_event_remaining_budget_en</sys_update_name>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-06-23 22:31:37</sys_updated_on>
+            <sys_updated_on>2017-06-23 21:57:30</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

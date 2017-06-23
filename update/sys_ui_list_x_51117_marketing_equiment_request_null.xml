@@ -4,77 +4,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>type</element>
-            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2207ed8a0f47320087f24e9ce1050e25</list_id>
+            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9e8c210f67320087f24e9ce1050e25</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:49:06</sys_created_on>
-            <sys_id>a607ed8a0f47320087f24e9ce1050e25</sys_id>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
+            <sys_id>4a9e8c210f67320087f24e9ce1050e26</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:49:06</sys_updated_on>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cost</element>
-            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2207ed8a0f47320087f24e9ce1050e25</list_id>
+            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9e8c210f67320087f24e9ce1050e25</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:49:06</sys_created_on>
-            <sys_id>2a07ed8a0f47320087f24e9ce1050e25</sys_id>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
+            <sys_id>ce9e8c210f67320087f24e9ce1050e26</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:49:06</sys_updated_on>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>needed_from</element>
-            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2207ed8a0f47320087f24e9ce1050e25</list_id>
+            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9e8c210f67320087f24e9ce1050e25</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:49:06</sys_created_on>
-            <sys_id>aa07ed8a0f47320087f24e9ce1050e25</sys_id>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
+            <sys_id>429e8c210f67320087f24e9ce1050e27</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:49:06</sys_updated_on>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>needed_until</element>
-            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2207ed8a0f47320087f24e9ce1050e25</list_id>
+            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9e8c210f67320087f24e9ce1050e25</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:49:06</sys_created_on>
-            <sys_id>2e07ed8a0f47320087f24e9ce1050e25</sys_id>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
+            <sys_id>c29e8c210f67320087f24e9ce1050e27</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:49:06</sys_updated_on>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>marketing_event</element>
-            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2207ed8a0f47320087f24e9ce1050e25</list_id>
+            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9e8c210f67320087f24e9ce1050e25</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:49:06</sys_created_on>
-            <sys_id>ae07ed8a0f47320087f24e9ce1050e25</sys_id>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
+            <sys_id>469e8c210f67320087f24e9ce1050e27</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:49:06</sys_updated_on>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9e8c210f67320087f24e9ce1050e25</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
+            <sys_id>c69e8c210f67320087f24e9ce1050e27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_51117_marketing_equiment_request" element="NULL" name="x_51117_marketing_equiment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9e8c210f67320087f24e9ce1050e25</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
+            <sys_id>4a9e8c210f67320087f24e9ce1050e27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -88,11 +118,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:49:06</sys_created_on>
+            <sys_created_on>2017-06-23 22:37:05</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2207ed8a0f47320087f24e9ce1050e25</sys_id>
+            <sys_id>ce9e8c210f67320087f24e9ce1050e25</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_51117_marketing_equiment_request</sys_name>
             <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
@@ -101,7 +131,7 @@
             <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
             <sys_update_name>sys_ui_list_x_51117_marketing_equiment_request_null</sys_update_name>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:49:06</sys_updated_on>
+            <sys_updated_on>2017-06-23 22:37:05</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

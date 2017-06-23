@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="email" table="x_51117_marketing_attendees">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="event_cost" table="x_51117_marketing_event">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Email</column_label>
+        <column_label>Event cost</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,21 +23,21 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>email</element>
+        <element>event_cost</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>40</max_length>
-        <name>x_51117_marketing_attendees</name>
+        <internal_type display_value="Currency">currency</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>20</max_length>
+        <name>x_51117_marketing_event</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-06-01 16:06:33</sys_created_on>
+        <sys_created_on>2017-06-23 21:56:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>1eb25ed20fc3320087f24e9ce1050e02</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Email</sys_name>
+        <sys_id>9a150ce50f27320087f24e9ce1050e96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event cost</sys_name>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
-        <sys_update_name>sys_dictionary_x_51117_marketing_attendees_email</sys_update_name>
+        <sys_update_name>sys_dictionary_x_51117_marketing_event_event_cost</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-23 22:36:10</sys_updated_on>
+        <sys_updated_on>2017-06-23 21:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
