@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_51117_marketing_equiment_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>EQU Total cost minor than budget</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    
+	var total_cost = 0;
+	var budget = parseFloat(current.marketing_event.budget.getCurrencyValue());
+	
+	var equipment = new GlideRecord('x_51117_marketing_equiment_request');
+	equipment.addQuery('marketing_event', current.marketing_event); //todos los equipos del evento
+	equipment.query();
+	
+	//obtenemos la sumatoria del costo de todos los equipos del evento
+	while(equipment.next())
+	{
+	   	total_cost = total_cost + parseFloat(current.cost.getCurrencyValue());
+	}
+	
+	//verificamos que el costo total sea menor al presupuesto
+	//gs.addInfoMessage("total cost: " + total_cost);
+	//gs.addInfoMessage("budget: " + budget);
+	if(budget < total_cost)
+	{
+		gs.addErrorMessage("Total equiment cost is greater than budget.");
+		current.setAbortAction(true);
+	}	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-23 20:32:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa70b3990fe3320087f24e9ce1050eb3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>EQU Total cost minor than budget</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+        <sys_update_name>sys_script_fa70b3990fe3320087f24e9ce1050eb3</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-23 20:37:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa70b3990fe3320087f24e9ce1050eb3"/>
+</record_update>

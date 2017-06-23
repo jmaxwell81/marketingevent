@@ -5,13 +5,13 @@
             <element>type</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:50:36</sys_created_on>
-            <sys_id>e867a1ca0f47320087f24e9ce1050edf</sys_id>
+            <sys_created_on>2017-06-23 20:12:38</sys_created_on>
+            <sys_id>468d6fd50fe3320087f24e9ce1050e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_51117_marketing_equiment_request" sys_domain="global" view="Default view">be55e50a0f47320087f24e9ce1050e7f</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:50:36</sys_updated_on>
+            <sys_updated_on>2017-06-23 20:12:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,69 +19,83 @@
             <element>cost</element>
             <position>1</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:50:36</sys_created_on>
-            <sys_id>6c67a1ca0f47320087f24e9ce1050edf</sys_id>
+            <sys_created_on>2017-06-23 20:12:38</sys_created_on>
+            <sys_id>0e8d6fd50fe3320087f24e9ce1050e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_51117_marketing_equiment_request" sys_domain="global" view="Default view">be55e50a0f47320087f24e9ce1050e7f</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:50:36</sys_updated_on>
+            <sys_updated_on>2017-06-23 20:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-06-23 20:12:38</sys_created_on>
+            <sys_id>8e8d6fd50fe3320087f24e9ce1050e81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_51117_marketing_equiment_request" sys_domain="global" view="Default view">be55e50a0f47320087f24e9ce1050e7f</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-06-23 20:12:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:50:36</sys_created_on>
-            <sys_id>ec67a1ca0f47320087f24e9ce1050edf</sys_id>
+            <sys_created_on>2017-06-23 20:12:38</sys_created_on>
+            <sys_id>028d6fd50fe3320087f24e9ce1050e82</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_51117_marketing_equiment_request" sys_domain="global" view="Default view">be55e50a0f47320087f24e9ce1050e7f</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:50:36</sys_updated_on>
+            <sys_updated_on>2017-06-23 20:12:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>needed_from</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:50:36</sys_created_on>
-            <sys_id>6067a1ca0f47320087f24e9ce1050ee0</sys_id>
+            <sys_created_on>2017-06-23 20:12:38</sys_created_on>
+            <sys_id>428d6fd50fe3320087f24e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_51117_marketing_equiment_request" sys_domain="global" view="Default view">be55e50a0f47320087f24e9ce1050e7f</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:50:36</sys_updated_on>
+            <sys_updated_on>2017-06-23 20:12:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>needed_until</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:50:36</sys_created_on>
-            <sys_id>e067a1ca0f47320087f24e9ce1050ee0</sys_id>
+            <sys_created_on>2017-06-23 20:12:38</sys_created_on>
+            <sys_id>c28d6fd50fe3320087f24e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_51117_marketing_equiment_request" sys_domain="global" view="Default view">be55e50a0f47320087f24e9ce1050e7f</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:50:36</sys_updated_on>
+            <sys_updated_on>2017-06-23 20:12:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>marketing_event</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-05-31 21:50:36</sys_created_on>
-            <sys_id>6467a1ca0f47320087f24e9ce1050ee0</sys_id>
+            <sys_created_on>2017-06-23 20:12:38</sys_created_on>
+            <sys_id>468d6fd50fe3320087f24e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_51117_marketing_equiment_request" sys_domain="global" view="Default view">be55e50a0f47320087f24e9ce1050e7f</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-05-31 21:50:36</sys_updated_on>
+            <sys_updated_on>2017-06-23 20:12:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

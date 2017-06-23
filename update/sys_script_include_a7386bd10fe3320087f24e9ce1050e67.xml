@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_51117_marketing.totalCost</api_name>
+        <client_callable>false</client_callable>
+        <description>Generate the total cost of a marketing event based on the equipment requests associated with it. Compare the total cost to the event budget.</description>
+        <name>totalCost</name>
+        <script><![CDATA[var totalCost = Class.create();
+totalCost.prototype = {
+    initialize: function() {
+        this.mrkevent = mrkevent;
+	},
+	
+	getCost: function(){
+		
+		var cost = 0;
+        //Get the total cost of all equipment for this event
+        var equipment = new GlideRecord('x_51117_marketing_equiment_request');
+        equipment.addQuery('marketing_event', this.mrkevent);
+        equipment.query();
+		
+        while(equipment.next()){
+            cost = cost + parseFloat(equipment.cost.getCurrencyValue());
+        }
+        
+		return cost;
+			
+	},
+
+	type: 'totalCost'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-23 19:52:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a7386bd10fe3320087f24e9ce1050e67</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>totalCost</sys_name>
+        <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+        <sys_update_name>sys_script_include_a7386bd10fe3320087f24e9ce1050e67</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-23 19:53:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

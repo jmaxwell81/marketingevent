@@ -18,9 +18,8 @@
     if(g_form.getValue('end_date') < g_form.getValue('start_date')) {
         g_form.clearMessages();  
 
-    g_form.addErrorMessage(g_form.getLabelOf('end_date') + ' ' 
-	+ getMessage('must be after') + ' ' + g_form.getLabelOf('start_date'));
-        return false;
+      //g_form.addErrorMessage(g_form.getLabelOf('end_date') + ' ' + getMessage('must be after') + ' ' + g_form.getLabelOf('start_date'));
+      // return false;
     }
    
 }]]></script>
@@ -31,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>670303a60f4f320087f24e9ce1050e73</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>End date validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
@@ -40,7 +39,7 @@
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
         <sys_update_name>sys_script_client_670303a60f4f320087f24e9ce1050e73</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-02 17:48:49</sys_updated_on>
+        <sys_updated_on>2017-06-23 20:07:41</sys_updated_on>
         <table>x_51117_marketing_event</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
