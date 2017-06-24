@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_51117_marketing.at_capacity</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>at_capacity</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-24 01:47:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dbe9f8a90fa7320087f24e9ce1050ef6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_51117_marketing.at_capacity</sys_name>
+        <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+        <sys_update_name>sysevent_register_dbe9f8a90fa7320087f24e9ce1050ef6</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-24 01:47:34</sys_updated_on>
+        <table>x_51117_marketing_event</table>
+    </sysevent_register>
+</record_update>
