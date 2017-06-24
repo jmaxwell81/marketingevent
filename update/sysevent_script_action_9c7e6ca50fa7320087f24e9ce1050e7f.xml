@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_51117_marketing.attendee.added</event_name>
+        <name>Add attendee</name>
+        <order>100</order>
+        <script><![CDATA[(function addAttendees() {
+//Get marketing event from event
+var mrkevent = new GlideRecord('x_51117_marketing_event');
+mrkevent.get(event.parm1);
+//Count attendees for marketing event
+var numOfAttendees = 0;
+var attendees = new GlideAggregate('x_51117_marketing_attendees');
+attendees.addQuery('marketing_event', event.parm1);
+attendees.addAggregate('COUNT');
+attendees.query();
+if(attendees.next())
+	numOfAttendees = attendees.getAggregate('COUNT');
+//Set attendees registered field
+mrkevent.number_of_attendees_registered = numOfAttendees;
+mrkevent.update();
+}());]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-24 01:01:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c7e6ca50fa7320087f24e9ce1050e7f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add attendee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
+        <sys_update_name>sysevent_script_action_9c7e6ca50fa7320087f24e9ce1050e7f</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-24 01:08:02</sys_updated_on>
+    </sysevent_script_action>
+</record_update>

@@ -3,10 +3,10 @@
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
-        <action_delete>true</action_delete>
+        <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -19,7 +19,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>ATT Update attendees count</name>
+        <name>ATT Attendee Events</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,49 +29,48 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+   //This function will be automatically called when this rule is processed.
 	
-// la presente business rule actualiza en cada insert o delete de attendees el conteo de estos en el marketing event
 	
-	var count = 0;
-	var attendees = new GlideRecord('x_51117_marketing_attendees');
-	attendees.addQuery('marketing_event', current.marketing_event);
-	attendees.query();
-	
-	while(attendees.next())
-	{
-		count = count + 1;
-	}
-	
-    var marketing_event = new GlideRecord('x_51117_marketing_event');
-	marketing_event.addQuery('sys_id', current.marketing_event);
-	marketing_event.query();
-	
-	while(marketing_event.next())
-	{
-		marketing_event.u_number_attendees_registered = count;
-	    marketing_event.update();
-	}
-	
+        //Add event when attendee inserted
+        if(current.operation() == 'insert' && current.marketing_event.changes()) {
+                gs.eventQueue('x_51117_marketing.attendee.added', current,
+current.marketing_event, current.email);
+        }
+        //Add event when marketing event changes
+        if(current.operation() == 'update' && current.marketing_event.changes()) {
+                gs.eventQueue('x_51117_marketing.attendee.deleted', previous,
+previous.marketing_event, previous.email);
+                gs.eventQueue('x_snc_marketing.attendee.added', current,
+current.marketing_event, current.email);
+        }
+        //Add event when attendee deleted
+        if(current.operation() == 'delete') {
+                gs.eventQueue('x_51117_marketing.attendee.deleted', null,
+              current.marketing_event, current.email);
+			
+			
+}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-06-01 17:22:01</sys_created_on>
+        <sys_created_on>2017-06-24 00:43:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2ee235da0f43320087f24e9ce1050e54</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>ATT Update attendees count</sys_name>
+        <sys_id>45aaace10fa7320087f24e9ce1050e1e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ATT Attendee Events</sys_name>
         <sys_overrides/>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
-        <sys_update_name>sys_script_2ee235da0f43320087f24e9ce1050e54</sys_update_name>
+        <sys_update_name>sys_script_45aaace10fa7320087f24e9ce1050e1e</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-24 01:20:18</sys_updated_on>
+        <sys_updated_on>2017-06-24 00:54:11</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=2ee235da0f43320087f24e9ce1050e54"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=45aaace10fa7320087f24e9ce1050e1e"/>
 </record_update>
