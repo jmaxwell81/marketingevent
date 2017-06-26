@@ -3,8 +3,10 @@
     <element extends="sys_import_set_row" label="Equipment Request Import" max_length="40" name="x_51117_marketing_equipment_request_import" type="collection">
         <element attributes="import_attribute_name=Cost" label="Cost" max_length="40" name="u_cost" type="integer"/>
         <element attributes="import_attribute_name=Marketing Event,edge_encryption_enabled=true" label="Marketing Event" max_length="40" name="u_marketing_event" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Needed from" max_length="40" name="u_needed_from" type="string"/>
         <element attributes="import_attribute_name=Needed until" label="Needed until" max_length="40" name="u_needed_until" type="glide_date"/>
         <element attributes="import_attribute_name=Need from" label="Need from" max_length="40" name="u_need_from" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Need until" max_length="40" name="u_need_until" type="string"/>
         <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
     </element>
 </database>
