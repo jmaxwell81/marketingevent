@@ -25,18 +25,28 @@ gs.info('Script action adjuntar attachment.');
     	
     while(attachments.next())
 		{
-		   attachments.table_sys_id = 'none';
-		   attachments.update();
-			
-		   gs.info('Se retira attachment de data source');
+		   global.deleteAttachmentFromScopedApp(attachments.sys_id);
 		}
 
-//cargamos en el data source el nuevo adjunto de la tabla de marketing event
+//cargamos en el data source todos los adjuntos de la tabla de marketing event
 	if(typeof GlideSysAttachment !== "undefined") {
     GlideSysAttachment.copy(mkt_table, mkt_sysid, datasource_table, datasource_sysid);
 } else {
     Packages.com.glide.ui.SysAttachment.copy(mkt_table, mkt_sysid, datasource_table, datasource_sysid);
 }
+	
+//borramos todos los adjuntos excepto el ultimo
+	var attachments2 = new GlideRecord('sys_attachment');
+    attachments2.addQuery('table_name', datasource_table);
+    attachments2.addQuery('table_sys_id', datasource_sysid);
+	attachments2.orderByDesc('sys_created_on');
+	attachments2.query();
+	attachments2.next(); //nos brincamos el ultimo 
+	
+	while(attachments2.next())
+		{
+			global.deleteAttachmentFromScopedApp(attachments2.sys_id);
+		}
 
 //hacemos el execute del schedule data import
 	global.executeScopedImporteSet(scheduled_import_sysid);
@@ -51,7 +61,7 @@ gs.info('Script action adjuntar attachment.');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6898e6520fa3320087f24e9ce1050e26</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Create data source from attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Marketing Events Applications" source="x_51117_marketing">a250e5420f47320087f24e9ce1050e3a</sys_package>
@@ -60,6 +70,6 @@ gs.info('Script action adjuntar attachment.');
         <sys_scope display_value="Marketing Events Applications">a250e5420f47320087f24e9ce1050e3a</sys_scope>
         <sys_update_name>sysevent_script_action_6898e6520fa3320087f24e9ce1050e26</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-26 21:01:02</sys_updated_on>
+        <sys_updated_on>2017-06-26 21:50:22</sys_updated_on>
     </sysevent_script_action>
 </record_update>
